@@ -64,8 +64,11 @@ exports.get_profile = async (page) => {
     await clear_console()
     const run = ora(`Scrap Data ${chalk.greenBright('Running..')}`).start();
     await page.goto('https://instagram.com', { waitUntil: "networkidle0" });
-    const CloseModal = await page.$x(selector.profile.close_modal);
-    await CloseModal[0].click();
+    try {
+        const CloseModal = await page.$x(selector.profile.close_modal);
+        await CloseModal[0].click();
+    } catch (err) {
+    }
     await new Promise(y => setTimeout(y, 1000));
     const ProfileMenu = await page.$x(selector.profile.profileMenu);
     await ProfileMenu[0].click();
