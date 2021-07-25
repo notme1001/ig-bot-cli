@@ -1,0 +1,63 @@
+{
+    "login": {
+        "go_login": "//*[@id='react-root']/section/main/article/div/div/div/div[3]/button[1]",
+        "username": "//*[@id='loginForm']/div[1]/div[3]/div/label/input",
+        "password": "//*[@id='loginForm']/div[1]/div[4]/div/label/input",
+        "Submit_btn": "//*[@id='loginForm']/div[1]/div[6]/button",
+        "login_check": "//*[@id='loginForm']/div[2]/div/p",
+        "err": {
+            "wrong_pw": "/html/body/div[4]/div/div/div/div[1]/h3",
+            "alert": "//*[@id='slfErrorAlert']"
+        }
+    },
+    "auto_reply": {
+        "closeModal": "/html/body/div[3]/div/div[2]/div/div[5]/button",
+        "urlMsg": "#react-root > section > div.IEL5I > div > div > div.N9abW > div > div",
+        "newMsg": "#react-root > section > div.IEL5I > div > div > div.N9abW > div a[href]",
+        "inputMsg": "//*[@id='react-root']/section/div[2]/div/div/div[2]/div/div/div/textarea",
+        "sendBtn": "//*[@id='react-root']/section/div[2]/div/div/div[2]/div/div/div[2]/button",
+        "backBtn": "//*[@id='react-root']/section/div[1]/header/div/div[1]"
+    },
+    "profile": {
+        "profileMenu": "//*[@id='react-root']/section/nav[2]/div/div/div[2]/div/div/div[5]/a",
+        "followers": "//*[@id='react-root']/section/main/div/header/section/ul/li[2]/a/span",
+        "totalPost": "//*[@id='react-root']/section/main/div/header/section/ul/li[1]/span/span",
+        "following": "//*[@id='react-root']/section/main/div/header/section/ul/li[3]/a/span",
+        "close_modal": "/html/body/div[4]/div/div/div/div[3]/button[2]"
+    },
+    "send_msg": {
+        "msg_btn": "//*[@id='react-root']/section/div[1]/header/div/div[2]/button",
+        "input_user": "//*[@id='react-root']/section/div[2]/div/div[1]/div/div[2]/input",
+        "user_list": "#react-root > section > div.IEL5I > div > div.Igw0E.IwRSH.eGOV_.vwCYk._3wFWr > div",
+        "input_msg": "//*[@id='react-root']/section/div[2]/div/div/div[2]/div/div/div/textarea",
+        "btn_next": "//*[@id='react-root']/section/div[1]/header/div/div[2]/button",
+        "send_btn": "//*[@id='react-root']/section/div[2]/div/div/div[2]/div/div/div[2]/button"
+    },
+    "user_posts": {
+        "image": "#react-root > section > main > div > div._2z6nI > article > div:nth-child(1) > div img[src]",
+        "url": "#react-root > section > main > div > div._2z6nI > article > div:nth-child(1) > div a[href]"
+    },
+    "edit_profile": {
+        "submit": "//*[@id='react-root']/section/main/div/article/form/div/div/div/button",
+        "name": "//*[@id='pepName']",
+        "username": "//*[@id='pepUsername']",
+        "website": "//*[@id='pepWebsite']",
+        "bio": "//*[@id='pepBio']"
+    },
+    "capture_msg": {
+        "scroll_sec": "#react-root > section > div.IEL5I > div > div > div > div",
+        "page_wait": "#react-root > section > div.IEL5I > div > div > div.Igw0E.IwRSH.hLiUi.vwCYk > div > div > div:nth-child(1) > div > div"
+    },
+    "user_get_post": {
+        "no_post": "//*[@id='react-root']/section/main/div/div[3]/article/div[1]/div/div[2]/h1",
+        "private": "//*[@id='react-root']/section/main/div/div/article/div[1]/div/h2"
+    },
+    "follow_user": {
+        "follow_btn": "//*[@id='react-root']/section/main/div/header/section/div[1]/div[1]/div/div/button",
+        "follow_back": "//*[@id='react-root']/section/main/div/header/section/div[1]/div[1]/div/div/div/span/span[1]/button"
+    },
+    "unfollow_user": {
+        "unfollow_list": "body > div.RnEpo.Yx5HN > div > div > div.isgrP > ul > div > li > div > div > button",
+        "unfoll_btn": "body > div > div > div > div > div.mt3GC > button.aOOlW.-Cab_"
+    }
+}

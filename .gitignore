@@ -1,0 +1,4 @@
+node_modules
+save.txt
+yarn.lock
+src/cookie.json

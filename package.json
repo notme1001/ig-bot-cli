@@ -1,0 +1,25 @@
+{
+  "name": "ig-run",
+  "version": "1.0.0",
+  "description": "Bot Instagram - ig-run",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ibnu Gunawan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cli-spinners": "^2.6.0",
+    "envinfo": "^7.8.1",
+    "figlet": "^1.5.0",
+    "fs": "^0.0.1-security",
+    "ora": "^5.4.1",
+    "path": "^0.12.7",
+    "prompts": "^2.4.1",
+    "puppeteer": "^10.1.0",
+    "signale": "^1.4.0"
+  }
+}
